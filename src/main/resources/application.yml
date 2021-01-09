@@ -13,6 +13,10 @@ spring:
         server-addr: 192.168.8.132:8848
   application:
     name: record
+  activemq:
+    broker-url: tcp://192.168.8.132:61616
+    user: admin
+    password: admin
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
